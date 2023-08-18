@@ -1,0 +1,16 @@
+declaring varbs
+
+var - global scope
+let - block scope
+
+
+document.getElementById
+
+document.getElementBySelector('#idname','.classname','.tagname');
+
+
+tag, text both ->inner.HTML
+
+text -> only for text
+
+If I give tags in innerText -> it is taken as text only not tag.

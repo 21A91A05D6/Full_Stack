@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	</title>
+</head>
+
+<!-- whenever we use tags -> .innerHTML 
+     whenever we use input fields -> in 
+ -->
+<body>
+	<!-- <p id="para">JavaScript</p> -->
+	<img id="img_id"  />
+
+	<input type="text" name="" id="ins_id">
+	<h2 id="hi"></h2>
+
+	<script type="text/javascript">
+		// let hi = document.getElementById('para').style.color="red";
+		// hi.style.fontSize='90px';
+
+
+		//get element by attribue
+		// let img = document.getElementByimg('img_id');
+		// document.write(img);  //for this I should give src beside the id only
+
+
+		// let img = document.getElementBysrc('img_id');
+		// img.src="img1.jpeg";
+
+
+
+		//task1
+		// let ins = document.getElementById('ins_id');
+		// ins.style.border='5px solid red';  //giving border
+		// ins.value='JDP';  //fetching form input field
+
+		//task2
+		let ins = document.getElementById('ins_id');
+		ins.style.border='5px solid red';
+		let d= document.getElementById('hi');
+		d.style.color='red';
+		d.innerHTML='Please enter name';
+		
+	</script>
+</body>
+</body>
+</html>

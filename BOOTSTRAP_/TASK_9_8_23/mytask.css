@@ -1,0 +1,58 @@
+#phone{
+	margin-left: 20%;
+	height: 70%;
+	width:60% ;
+}
+#myform{
+	margin-top: 10%;
+}
+#cell{
+	width: 19%;
+}
+
+#on1{
+	height: 7%;
+	width: 100%;
+}
+
+#h1{
+	width: 50%;
+}
+#firstname{
+	float: left;
+
+}
+#lastname{
+	float: left;
+	margin-left: 4%;
+}
+#pwd1{
+	float: left;
+}
+#pwd2{
+	float: left;
+	margin-left: 4%;
+}
+
+#login{
+	font-weight: bold;
+	text-decoration: none;
+}
+#acc{
+	font-size: x-large;
+	font-weight: bold;
+}
+#acc2{
+	font-size: small;
+	color: darkgray;
+}
+
+#spl1{
+	float: right;
+	width: 60%;
+	
+}
+
+#hlo{
+	width: 100%;
+}

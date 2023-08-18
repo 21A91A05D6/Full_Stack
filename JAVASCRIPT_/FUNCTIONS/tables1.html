@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="2px solid black">
+		<thead>
+			<tr>
+				<td>Course</td>
+				<td>number</td>
+				<td>fees</td>
+				<td>place</td>
+			</tr>
+		</thead>
+		<tbody id="z">
+		</tbody>
+	</table>
+	<script type="text/javascript">
+		let courses=[{
+			'name':'asha',
+			'number':'d6',
+			'fees':'24000',
+			'place':'kkd'
+		},
+		{
+			'name':'xyz',
+			'number':'56',
+			'fees':'24000',
+			'place':'kkd'
+		},
+		{
+			'name':'asha',
+			'number':'d6',
+			'fees':'24000',
+			'place':'kkd'
+		},
+		]
+		for (var i = 0; i<courses.length ; i++) {
+ 		 		 
+ 		}
+	</script>
+</body>
+</html>
+
+
+3 rows 4 cols
+
+
+table header
+tbody
+
+tbody id= "hi" ></tbody>
+script
+onj array
+let coursed=[{
+	"name":"shiny"
+}]
+
+no doc write
+console log
+display in table body
+
+
+
+html header only
+body id 
+script objs
+
+ --> 
+<!-- 
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="1px" cellpadding="2px">
+		<thead>
+		<tr>
+			<th>Col1</th>
+			<th>Col2</th>
+			<th>Col3</th>
+			<th>Col4</th>
+		</tr>
+		</thead>
+		<tbody id="tt"></tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr> 
+	</table>
+	<script type="text/javascript">
+		let a=document.getElementById('tt');
+		var obj=[{
+			'name':'row1col1',
+			'name':'row1col2',
+			'name':'row1col2',
+			'name':'row1col2'
+		},
+		       
+		{
+			'name':'row1col2',
+			'name':'row1col2',
+			'name':'row1col2',
+			'name':'row1col2'
+		}
+		,{
+			'name':'row1col3',
+			'name':'row1col2',
+			'name':'row1col2',
+			'name':'row1col2'
+		}];
+		for(var i=0;i<obj.length;i++)
+		{
+			for (key in obj[i])
+			{
+  				a[i].innerText=obj[i][key];
+			}
+		}
+	</script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>prac</title>
+</head>
+<body>
+	
+	<table border="2px solid black">
+		<thead >
+			<tr>
+				<th>name</th>
+				<th>rollno</th>
+				<th>college</th>
+				<th>branch</th>
+			</tr>
+		</thead>
+		<tbody id="tablebody">
+			<!-- <tr>
+				<td></td>
+			</tr> -->
+		</tbody>
+	</table>
+
+	<script type="text/javascript">
+	const elements=[{
+		'id':'1',
+		'name' : 'hari',//(key,values)
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'CSE'
+	},
+	{
+		'id':'2';
+		'name' : 'h',//(key,values)
+		'rollno':456,
+		'college':'ACOE',
+		'branch':'IT'
+	}]
+	function populateTable() 
+	{
+	    const tableBody = document.getElementById("tablebody");
+
+	    elements.forEach(element => 
+	    {
+	        const row = document.createElement("tr");
+	        row.innerHTML = 
+	            <td>${element.id}</td>
+	            <td>${element.name}</td>
+	            <td>${element.rollno}</td>
+	            <td>${element.college}</td>
+	            <td>${element.branch}</td>
+	        tablebody.appendChild(row)
+	    }
+      );
+    }
+    document.addEventListener("DOMContentLoaded", populateTable);
+	</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!-- Styling CSS
+
+CSS:
+inline: applying styles inside the html tag (first priority)
+internal:(second priority)
+external:(least priority)
+
+Selectors in css
+1. By using class  -> dot + cls name
+2. By using Id     -> # + id name ( it is unique , used in linking of web pages)
+3. By using element name ->direct tag name in css file
+4. Univeral selector -> * + {}
+5. Attribute selector
+6. Pseudo selector
+
+color - text color
+background-color  - background
+style attribute -> Inline CSS
+style tag -> Internal CSS
+background-image=url("img1.jpg")
+
+borders- style : solid, line , dots,
+
+
+ -->
+ <!DOCTYPE html>
+ <html>
+     <head>
+     	<meta charset="utf-8">
+     	<meta name="viewport" content="width=device-width, initial-scale=1">
+     	<title>css</title>
+
+        <link rel="stylesheet" type="text/css" href="external_css.css">
+
+        <style type="text/css">
+            .abc{
+                font-size: 50px;
+                font-family: cursive;
+            }
+            #ab{
+                font-family: cursive;
+            }
+
+            h4{
+                background-color: lightgreen;
+            }
+        </style>
+     </head>
+     <body>
+        <!-- Inline -->
+     	<h3 style="color: blue;">Inline</h3>
+     	<p style="background-color: cyan;">CSS</p>
+
+        <!-- Internal -->
+        <h4>Internal</h4>
+
+
+        <!-- 1) class selector -->
+        <p class="abc">This is a class selector in internal CSS styling</p>
+
+        <!-- External -->
+        <h4>External</h4>
+        <p class="ext">This is external CSS styling</p>
+
+
+        <!-- 2) id selector -->
+        <p id="ab">by id selector</p>
+        <p id="abc">by id selector222</p>
+
+        <a href="#home">home
+        <a href="#about">ab
+        <a href="#contact">cont
+        </a>
+
+        <h1 id="home">this is home</h1>
+        <h1 id="about">this is about</h1>
+        <h1 id="contact">this is contact</h1>
+
+
+        <!-- 3) Element selector -->
+
+        <!-- we directly use the tag name directly in css file 
+            How many times we use the same tag, the same css properties are apllied-->
+        <div class="hi">
+                <p>This is element selector</p>
+                <p>h</p>
+                <p>i</p>
+        </div>
+        <div class="hi2">   
+            <p>This is div2</p>
+        </div>
+        <!-- <div>   
+        </div> -->
+       
+
+        <h2>This is element selector</h2>
+
+        <!-- 4) Universal selector -->
+
+        <!-- applies to the entire html page and the tags inside the pg which we declare using universal selector -->
+        <!-- if we don't give any styles for elements then, universal seelctor properties are applied -->
+        <!-- If we already have given properties using inline or internal css, then, they are the first priority, they will be applied. Or else, if no property given, then universal selector properties are apllied-->
+
+        <!-- we directly give this in the css file only -->
+
+
+        <!-- 5) Attribute selector -->
+
+        <input type="text">
+        <input type="number">
+        <a href="">click</a><br><br>
+        <input type="password"><br><br>
+        <a href=" ">Click here</a><br><br>
+        <a href="https://www.britannica.com/summary/A-P-J-Abdul-Kalam">Click</a>
+        <img src="img1.webp">
+
+        <!-- Pseudo selector -->
+        <h4>Pseudo selector</h4>
+
+        <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">pseudo click</a>
+        <br><br><br>
+
+        <div class="hii"><a href="https://www.britannica.com/summary/A-P-J-Abdul-Kalam">click</div></a>
+        <!-- give the height, width, and background color in css first, then give hover block separately -->
+
+        <div class="a"></div>
+
+        <br><br><br>
+
+        
+
+     </body>
+ </html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+#time{
+	font-size: 130%;
+	margin-left: 8%;
+}
+#searchicon{
+	margin-left: 31%;
+}
+#down{
+	margin-left: 2%;
+}
+#my{
+	font-size: 100%;
+	margin-left: 35%;
+	font-weight: bold;
+}
+.class1{
+	font-size: 150%;
+}
+#tick{
+		color: green;
+}
+.date{
+	font-size: 100%;
+	color: gray;
+}
+#two{
+	margin-top: 2%;
+}
+#three{
+	margin-top: 2%;
+}
+#four{
+	margin-top: 2%;
+}
+#rock{
+	float: right;
+	border-radius: 100%;
+	height: 4%;
+	width: 4%;
+}
+#rock2{
+	float: right;
+	border-radius: 100%;
+	/*height: 5%;
+	width: 6%;*/
+	height: 4%;
+	width: 5%;
+}
+
+#rock3{
+	float: right;
+	border-radius: 100%;
+	/*height: 5%;
+	width: 6%;*/
+	height: 4%;
+	width: 5%;
+}
+#rock4{
+	float: right;
+	border-radius: 100%;
+	/*height: 5%;
+	width: 6%;*/
+	height: 4%;
+	width: 5%;
+}
+#new1{
+	font-size: 100%;
+	margin-top: 1%;
+}
+#vv{
+	float: left;
+}

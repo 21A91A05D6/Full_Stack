@@ -1,0 +1,115 @@
+body{
+	background-color: grey;
+}
+#cont{
+	position: absolute;
+	width: 100%;
+	height: 10%;
+
+}
+#one{
+	background: white;
+}
+*{
+	margin: 0%;
+	padding: 0%;
+}
+#s{
+	margin-left: 0%;
+}
+
+#card1{
+	margin-top: 1%;
+	float: left;
+	background-color: lawngreen;
+	height: 70%;
+	width: 10%;
+	margin-left: 23%;
+	color: white;
+}
+#card2{
+	margin-top: 1%;
+	float: left;
+	background-color: skyblue;
+	height: 70%;
+	width: 10%;
+	margin-left: 1%;
+	color: white;
+}
+#card3{
+	margin-top: 1%;
+	float: left;
+	background-color: skyblue;
+	height: 70%;
+	width: 10%;
+	margin-left: 1%;
+	color: white;
+}
+#card4{
+	margin-top: 1%;
+	float: left;
+	background-color: skyblue;
+	height: 70%;
+	width: 10%;
+	margin-left: 1%;
+	color: white;
+}
+#card5{
+	margin-top: 1%;
+	float: left;
+	background-color: indianred;
+	height: 70%;
+	width: 10%;
+	margin-left: 1%;
+	color: white;
+}
+
+#pv{
+	padding: 5%;
+}
+
+#row1{
+	background-color: grey;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+#newcrd1{
+	height: 80%;
+
+}
+#newcrd2{
+
+}
+#mypic1{
+
+	margin-left: 10%;
+	height: 15%;
+	width: 15%;
+	border-radius: 70%;
+}
+ul{
+	margin-left: 20%;
+}
+#mypic2{
+
+	margin-left: 5%;
+	height: 15%;
+	width: 15%;
+	border-radius: 70%;
+}
+#row2{
+	margin-top: 3%;
+	margin-left: 5%;
+}
+#mypic2{
+	margin-left: 10%;
+	height: 15%;
+	width: 15%;
+	border-radius: 70%;
+}
+#mypic4{
+	margin-left: 10%;
+	height: 15%;
+	width: 15%;
+	border-radius: 70%;
+}

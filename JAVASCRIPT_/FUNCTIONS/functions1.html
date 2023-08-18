@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<!-- function
+block of code
+reuse code
+ -->
+<body>
+	<!-- normal fn -->
+	<!-- <script type="text/javascript">
+		function test(){
+			alert("testing");
+			//document.write("JS Function")
+		}
+		test()
+	</script> -->
+
+
+	<!-- function with one parameter -->
+	<!-- <script type="text/javascript">
+		function myfun(arg1) {
+			document.write(arg1);
+		}
+		myfun('Hello world!')
+	</script> -->
+
+	<!-- <script type="text/javascript">
+		//default value
+		function myfun(s='jdp') {
+			document.write(s);
+		}
+		myfun()
+	</script> -->
+
+
+	<!-- <script type="text/javascript">
+		var a = prompt("Scan your id");  //stores roll no
+		var b = prompt("Scan your id");
+		function scan(roll1,roll2){
+			document.write(roll1+"<br>"+roll2);
+		}
+		scan(a,b) //sending the roll no as parameter
+		//if we send only one after taking 2 vars, it gives NaN
+
+		//scan(a,b=0)
+		//passing scan -> (a)
+		//(if we don't pass any value default value is printed)
+	</script> -->
+
+
+	<!-- assigning entire function (output) to a variable -->
+	<!-- sum()
+	anonymous fn -> fn without having a name
+	 -->
+	<!-- <script type="text/javascript">           //*********************** store fn in a var
+		var x = function mul(a,b){
+			return a*b
+		}
+		document.write(x(2,5)) //passing arguments to variable
+		
+	</script> -->
+
+
+	<!-- <script type="text/javascript">
+		var x = prompt("Enter a number"); 
+		function cube(a){
+			return a*a*a
+		}
+		// var x=cube(2)
+		document.write(cube(x))
+	</script> -->
+
+
+	<!-- <script type="text/javascript">
+		z = prompt("Enter a number")
+		function cb(x){
+			return Math.pow(x,3)
+		}
+		document.write(cb(z))
+
+	</script> -->
+
+
+
+
+ 	<!-- arrow fn -->
+ 	<!-- short fn syntax -->
+
+	<script type="text/javascript">
+		//es6 features , arrow fn 
+		//never use function keyword
+		//arrow fn with 2 args
+		add = (a,b) =>{                //if more than 2 args give in brackets
+			document.write(a+b)
+		}
+		add(12,20)
+		document.write("<br>")
+
+
+		//arrow fn with 1 arg
+		getname = a =>{
+			document.write(a)
+		}
+		getname('JDP')
+
+		//not passing arguments           // no args , use space or underscore
+		test = _ =>{
+			document.write("<br>"+"testing"+"<br>")
+		}
+		test()
+
+
+		//set timeout fn
+		//1 second = 1000 milliseconds.
+		setTimeout(function(){
+			document.write("enable after 2 seconds")	
+		},2000)
+
+		//callback function
+		//funct within a funct as argument
+		//test1 fn is passed as arg format
+		setTimeout(test1,2000)  //here argument is a function
+		function test1(){
+			document.write("after 2 secons")
+		}
+
+
+		// myTimeout = setTimeout(test1, 5000);
+		// clearTimeout(myTimeout);
+
+	</script>
+</body>
+</html>
+
+<!-- 
+TOPICS
+functions:
+	functions with no arg
+	functions with 1 arg
+	functions with 2 args
+	arrow function
+	anonymous function
+
+events
+push into github
+task -> 
+obj -> declare
+obj arrays DOM prop , trainees
+-->
+
+
+<!-- 
+table header
+tbody
+
+tbody id= "hi" ></tbody>
+script
+onj array
+let coursed=[{
+	"name":"shiny"
+}]
+
+no doc write
+console log
+display in table body
+
+
+
+html header only
+body id 
+script objs
+
+
+ -->

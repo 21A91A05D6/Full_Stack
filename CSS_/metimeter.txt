@@ -1,0 +1,70 @@
+28-07-2023
+color - text color
+background-color  - background
+style attribute -> Inline CSS
+style tag -> Internal CSS
+background-image=url("img1.jpg")
+
+---------------------------------
+31-07-2023
+[attribute=""]
+highest specificity-id
+target - not selector
+class selctor-as many as it can select
+id,cls,attrib,element,univ
+
+--------------------------------------
+
+
+03-02-23
+
+1) Uppercase -> text-transform
+2) Shadow to text -> text-shadow
+3) Why do we use visibility-hidden on an elmnt -> to hide the elmnt without effecting the layout of the page
+4) Convert block level elmt to inlinee lemnt-> display-inline
+5) span -> inline elmnt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

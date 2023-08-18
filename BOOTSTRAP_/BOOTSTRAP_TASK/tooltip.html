@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap.css">
+	<style type="text/css">
+		button{
+			height: 60px;
+			width:  110px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<a href="jumborton.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px; margin-left: 130px; ">Jumborton</button></a>
+		<a href="spinner.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">Spinner</button></a>
+		<a href="scrollspy.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">Scrollspy</button></a>
+		<a href="listgroup.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">ListGroup</button></a>
+		<a href="carrousal.html">
+		<button type="button" class="btn btn-info" style="margin-right: 50px;">Carrousal</button></a>
+		<a href="buttongroup.html">
+		<button type="button" class="btn btn-info" style="margin-left: 30px;">Button Group</button></a>
+		<br>
+
+		<a href="alerts.html">
+		<button type="button" class="btn btn-info" style="margin-left: 130px;margin-top: 50px;">Alerts</button></a>
+		<a href="badge.html">
+		<button type="button" class="btn btn-info" style="margin-left: 890px; margin-top: 50px;">Badge</button></a>
+		<br><br>
+
+		<a href="button.html">
+		<button type="button" class="btn btn-info" style="margin-left: 130px;margin-top: 50px;">Buttons</button></a>
+		<a href="cards.html">
+		<button type="button" class="btn btn-info" style="margin-left: 890px; margin-top: 50px;">Cards</button></a>
+		<br><br>
+
+		<a href="tooltip.html">
+		<button type="button" class="btn btn-warning" style="margin-left: 130px;margin-top: 50px;">Tooltip</button></a>
+		<a href="mediaobject.html">
+		<button type="button" class="btn btn-info" style="margin-left: 890px; margin-top: 50px;">Media Object</button>
+		<br><br>
+
+		<a href="nav.html">
+		<button type="button" class="btn btn-info" style="margin-left: 130px;margin-top: 50px;">Nav</button></a>
+		<a href="modal.html">
+		<button type="button" class="btn btn-info" style="margin-left: 890px; margin-top: 50px;">Modal</button></a>
+		<br><br><br>
+
+		<a href="progressbar.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px; margin-left: 130px; ">Progress Bar</button></a>
+		<a href="dropdown.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">Dropdown</button></a>
+		<a href="navbar.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">Navbar</button></a>
+		<a href="forms.html">
+		<button type="button" class="btn btn-info" style="margin-right: 90px;">Forms</button></a>
+		<a href="inputgroup.html">
+		<button type="button" class="btn btn-info" style="margin-right: 70px;">Input group</button></a>
+		<a href="collapse.html">
+		<button type="button" class="btn btn-info" style="margin-left: 5px;">Collapse</button></a>
+
+
+		<!--  <a href="https://www.google.com/">
+            <button class="btn btn-primary btn-lg">Spinner</button>
+        </a> -->
+
+        <br><br><br><h1 style="text-align: center; font-family: helvetica;">Tooltip</h1><br><br>
+         <h2><u>This is an example</u></h2>
+         <p style="font: cursive; text-align: center;">
+       To create a tooltip, add the data-bs-toggle="tooltip" attribute to an element.
+
+		Use the title attribute to specify the text that should be displayed inside the tooltip:
+       	</p>
+       	<br><br><br>
+		<div class="container mt-3">
+		  <h3>Tooltip Example</h3>
+		  
+		  <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Hooray!">
+		    Hover over me!
+		  </button>
+		</div>
+
+		<script>
+		// Initialize tooltips
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+		</script>
+		<br><br><br>
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+css framework
+order -> bootsrap cls
+html,css -> horizontal scrolling
+using biitstrap -> responsiveness - meta tag
+predefined lib
+
+bootstrap 5
+
+online-we can integrate online cdn links from getbootstrap.com
+(https://getbootstrap.com/docs/5.3/getting-started/download/)
+offline-local-getbootstrap.com -> docs -> download -> show in folder -> extract all -> got to css and copt the bootstrap.css file to your desired location.
+
+For every tag in html, bootstrap has a special cls and style
+
+1row=12 cols

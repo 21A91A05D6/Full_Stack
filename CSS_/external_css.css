@@ -1,0 +1,88 @@
+/*Class selector*/
+.ext{
+	background-color: mediumpurple;
+	border: 2px solid maroon;
+}
+/*div p*/
+/*but when we give class, we use .name
+Element selector
+*/
+div.hi{
+	color: purple;
+	font-size: 50px;
+}
+div.hi2{
+	color: maroon;
+	font-size: 50px;
+}
+div {
+	height: 500px;
+	width: 500px;
+	background-color: skyblue;
+}
+h2{
+	background-color: limegreen;
+	font-family: cursive;
+}
+
+/*Universal selector */
+*{
+	font-family: sans-serif;
+	color: coral;
+}
+
+
+/*Attribute selector*/
+/*tag[attribute]{}*/
+input[type]{
+	background-color: yellow;
+}
+input[type="text"]{
+	background-color: orange;
+	color: magenta;
+}
+input[type="number"]{
+	background-color: magenta;
+	color: white;
+}
+a[href=""]{
+	background-color: lemonchiffon;
+}
+/* If I want to aplly for only a specific anchor tag I can give the link here as  --a[href=" "]{}-- */
+a[href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"]{
+	background-color: grey;
+}
+a[href="https://www.britannica.com/summary/A-P-J-Abdul-Kalam"]{
+	background-color: blue;
+	color: white;
+}
+img[src]{
+	border: 50px solid beige;
+	height: 100px;
+	width: 200px;
+}
+
+a:link{
+	background-color: grey;
+	color: brown;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	font-size: 50px;
+}
+div.hii{
+	background-color: grey;
+}
+div.hii:hover{
+	background-color: maroon;
+
+}
+div.a:hover{
+	background-color: limegreen;
+
+}

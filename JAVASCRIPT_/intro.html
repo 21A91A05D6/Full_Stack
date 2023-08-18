@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS intro</title>
+	<script type="text/javascript" src="intro.js"></script>
+
+</head>
+<!-- js - scripting language -->
+<body>
+	<h1>Javascript Introduction</h1>
+	<!-- <script type="text/javascript">
+		var a=10;
+		var b=70;
+		var c=30
+		// console.log(a);  //used for debugging in real time scenarios
+		document.write(a);  // printing1
+		console.log(b);
+		document.write("Welcome to js world");
+		// alert(a); //window.alert(a)
+	</script>
+ 	-->
+
+ 	<!-- <script type="text/javascript">
+ 		//new line
+ 		var a=10;
+ 		document.write("Welcome</br>"); //to print in next line
+ 		document.write("Value is ",a);
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//last given value is executed
+ 		var name='jdp';
+ 		name='sim'
+ 		document.write(name); 
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//concatenation and length ".length"
+ 		var name='adi';
+ 		name+= 'tya';  //no need to give var again
+ 		document.write(name+"<br>");
+ 		document.write(name.length);
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//concatenate using single variable
+ 		var n='reka';
+ 		n+= ' ramya';
+ 		n+= ',geetha';
+ 		document.write(n);
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		var a=5;
+ 		var b='sim';
+ 		var c;
+ 		var d=5.890;
+ 		document.write(typeof(a)+"<br>"); //number
+ 		document.write(typeof(b)+"<br>"); //string
+ 		document.write(typeof(c)+"<br>"); //undefined
+ 		document.write(typeof(d)+"<br>"); //number
+
+ 		var z; //undefined
+ 		z+='jdp';
+ 		document.write(z);  //undefinedjdp 
+
+ 		var y;
+ 		y += 'sim';
+ 		document.write(y);
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		var a=10;
+ 		var name='sim';
+ 		var g=true; //boolean
+ 		//var g='true'; //string
+ 		document.write(typeof(g)); //boolean
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//array - collection of elements with diff data types
+
+ 		var arr=['hi',1,'aloha'];
+ 		document.write(typeof(arr)+"<br>"); //object
+ 		document.write(arr);
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		var arr=['asha','mohana','vyshnavi','yogitha'];
+ 		document.write(arr[1]); //commas
+ 		console.log(arr); //only elmnts
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//without commas
+ 		var arr=['h','e','l','l','o'];
+ 		document.write(arr+"<br>");
+ 		document.write(arr.join(""));
+ 	</script> -->
+
+ 	<!-- <script type="text/javascript">
+ 		//print 1st and 3rd elmt
+ 		var arr=['india','us','canada','uk','aus'];
+ 		document.write(arr[0]+"<br>"+arr[2]);
+ 	</script> -->
+
+ 	<script type="text/javascript">
+ 		var trainees =[ {
+ 			'name' : 'asha',
+ 			'roll' : '1234',
+ 			'college' : 'AEC',
+ 			'branch' : 'CSE'
+ 		},
+ 		{
+ 			'name' : 'mohana',
+ 			'roll' : '9087',
+ 			'college' : 'AECT',
+ 			'branch' : 'IT'
+ 		},
+ 		{
+ 			'name' : 'yogitha',
+ 			'roll' : '9087',
+ 			'college' : 'AECT',
+ 			'branch' : 'ECE'
+ 		}]
+ 		// console.log(trainees.name);    //method1
+ 		// console.log(trainee['branch']); //method2
+ 		// console.log(trainee);   
+ 		// document.write(trainee.branch);
+ 		// document.write(trainee);
+
+
+ 		// console.log(trainees);
+ 		// console.log(trainees[0].name);
+ 		// console.log(trainees[1].name);
+
+ 		// for (var i = trainees.length - 1; i >= 0; i--) {
+ 		// 	console.log(trainees);
+ 		// }
+
+ 		// for (var i = 0; i<trainees.length ; i++) {
+ 		//  		 console.log(trainees[i]); //sir
+ 		// }
+
+ 		for (var i = 0; i<trainees.length ; i++) {
+ 		 		 console.log(i+1,trainees[i].name,trainees[i].roll,trainees[i].branch);
+ 		}
+
+ 		
+ 	</script>
+</body>
+</html>

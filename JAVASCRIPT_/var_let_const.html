@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>var,let,const</title>
+</head>
+
+<body>
+	<h1>var , let , const</h1>
+	<script type="text/javascript">
+		var a=10; //global scope variable
+		document.write(a+"<br>");
+
+		//let , const : block level variable
+		//if we redeclare the variable using "let" it destroys both the values
+		//USimg "let" we cannot re declare, but we can re initialize
+		let b=20;
+		//let b=30 //wrong redeclararation is NOT possible
+		b=30; // reinitialization is POSSIBLE
+		document.write(b+"<br>");
+		
+
+		//one block
+		{
+			let c = 50; //block level var, we can call only inside the block
+			document.write(c+"<br>");
+		}
+		//document.write(c); //we can't access outside. Not possible bcuz c is block scope variable
+		const pi=3.14;
+		//pi = 5;  //assignent to const value ---> TYPE ERROR
+		document.write(pi);
+
+
+		document.write("<br>");
+		document.write("<br>");
+
+		let o= "hello";
+		var m= "hi";
+		const n= "sim";
+		document.write(o+"<br>");
+		document.write(m+"<br>");
+		document.write(n+"<br>");
+
+	</script>
+</body>
+</html>

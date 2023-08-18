@@ -1,0 +1,41 @@
+.a{
+	height: 400px;
+	width: 300px;
+	background-color: limegreen;
+	border: 2px solid darkred;
+	float: left;
+}
+.b{
+	height: 400px;
+	width: 300px;
+	background-color: turquoise;
+	border: 2px solid darkred;
+	float: left;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+.c{
+	/*absolute*/
+	height: 400px;
+	width: 300px;
+	background-color: coral;
+	border: 2px solid darkred;
+	float: left;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+.d{
+	height: 400px;
+	width: 300px;
+	background-color: skyblue;
+	border: 2px solid  darkred;
+	float: left;
+	position: fixed;
+	left: 1100px;
+	top: 200px;
+}
+
+/*we dont use solid for margin , padding and shadow*/
+/*use top left or rt bottom */

@@ -1,0 +1,193 @@
+#h1{
+	margin-right: 10%;
+}
+#h2{
+	margin-right: 10%;
+}
+#h3{
+	margin-right: 30%;
+}
+#h4{
+	margin-right: 40%;
+}
+#ccc{
+	float: left;
+}
+#c{
+	float: right;
+}
+.spn1{
+	font-size: 150%;
+}
+.spn21{
+	font-size: 150%;
+	color: red;
+}
+.spn22{
+	font-size: 150%;
+	color: green;
+}
+.spn23{
+	font-size: 150%;
+	color: gold;
+}
+.spn24{
+	font-size: 150%;
+	color: skyblue;
+}
+.spn31{
+	font-size: 150%;
+	color: skyblue;
+}
+.spn32{
+	font-size: 150%;
+	color: gold;
+}
+.spn33{
+	font-size: 150%;
+	color: green;
+}
+.spn34{
+	font-size: 150%;
+	color: red;
+}
+#cont{
+	margin-top: 2%;
+}
+#cont2{
+	margin-top: 2%;
+}
+#cont3{
+	margin-top: 2%;
+}
+#pen1{
+	font-size: 350%;
+	color: skyblue;
+}
+#pen2{
+	font-size: 300%;
+	color: gold;
+}
+#pen3{
+	font-size: 300%;
+	color: green;
+}
+#pen4{
+	font-size: 300%;
+	color:  red;
+}
+#new1{
+	float: right;
+}
+
+#foster{
+	float: right;
+}
+
+#para{
+	float: left;
+}
+#para2{
+	float: right;
+}
+#wt1{
+	float: left;
+}
+#wt2{
+	float: right;
+}
+#lyf{
+	position: absolute;
+	float: right;
+	margin-left: 60%;
+	font-size: 300%;
+}
+#rocket1{
+	float: right;
+	font-size: 300%;
+	color: red;
+}
+#rocket2{
+	float: right;
+	font-size: 300%;
+	color: green;
+}
+#rocket3{
+	float: right;
+	font-size: 300%;
+	color:gold;
+}
+#rocket4{
+	float: right;
+	font-size: 300%;
+	color:skyblue;
+}
+#book1{
+	float: right;
+	font-size: 300%;
+	color:skyblue;
+}
+#book2{
+	float: right;
+	font-size: 300%;
+	color: gold;
+}
+#book3{
+	float: right;
+	font-size: 300%;
+	color: limegreen;
+}
+#book4{
+	float: right;
+	font-size: 300%;
+	color:red;
+}
+#vv{
+	float: left;
+}
+#xy{
+	height: 100%;
+	width: 103%;
+}
+#xy2{
+	margin-left: 2%;
+	height: 100%;
+	width: 103%;
+}
+#xy3{
+	height: 100%;
+	width: 103%;
+	margin-left: 4%;
+}
+#xy4{
+	height: 100%;
+	width: 103%;
+	margin-left: 6%;
+}
+#msg{
+	float: right;
+	font-size: 300%;
+}
+#graph{
+	float: right;
+	font-size: 300%;
+}
+#last{
+	float: right;
+	font-size: 300%;
+}
+#xy{
+	margin-right: 1%;
+}
+#final{
+	height: 100%;
+	width: 100%;
+}
+#prog{
+	margin-down: 90%;
+	padding: 2%;
+}
+#prog2{
+	margin-down: 90%;
+	padding: 2%;	
+}
